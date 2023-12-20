@@ -8,7 +8,7 @@ const Main = () => {
             <section className='main__section__major main--last-proyects' id='portfolio' >
 
                 <div className='section__div__mayor'>
-                    <h3 className="main__subtitle" >My last proyects</h3>
+                    <h3 className="main__subtitle" >Últimos Proyectos</h3>
                     <img className="main__img img--triangle" src="/imagen3.svg" alt="" />
                 </div>
                 <section className="main__Section main--last-proyects-box" >
@@ -58,7 +58,7 @@ const Main = () => {
             <section className='main__section__major main__section--square' id='contact'>
 
                 <div className='section__div__mayor'>
-                    <h3 className="main__subtitle__form">Let's talk</h3>
+                    <h3 className="main__subtitle__form">Contáctame</h3>
                     <img className="main__img img--square" src="/imagen4.svg" alt="" />
                 </div>
                 <section className="main__Section main__Section--form">

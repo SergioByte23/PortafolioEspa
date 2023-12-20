@@ -16,9 +16,9 @@ const Nav = () => {
     <span className='nav__letter' >S</span>
     </div>
     <ul className={`nav__ul ${isNav && 'form__disable'}`} id="box-menu">
-      <li><a className="nav__ul__a" href="#root">ABOUT</a></li>
-      <li><a className="nav__ul__a" href="#portfolio">PROJECTS</a></li>
-      <li><a className="nav__ul__a" href="#contact">CONTACT</a></li>
+      <li><a className="nav__ul__a" href="#root">INICIO</a></li>
+      <li><a className="nav__ul__a" href="#portfolio">PROYECTOS</a></li>
+      <li><a className="nav__ul__a" href="#contact">CONTACTO</a></li>
     </ul>
     </>
   )

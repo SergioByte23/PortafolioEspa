@@ -5,14 +5,14 @@ const Header = () => {
     < >
       <section className="header__section"  id='about'>
         <div className="section__div section__div--imgavatar" >
-          <h3 className="header__subtitle">About me</h3>
+          <h3 className="header__subtitle">Acerca de mí</h3>
           <img className="header__img img--avatar" src="/imagen2.svg" alt="" />
           <img className="header__img img--circle" src="/imagen1.svg" alt="" />
         </div>
         <div className="section__div section__block">
           <div className='header__block'>
-            <h1 className="header__title">Hi,I am Sergio</h1>            
-            <p className="header__paragraph">Im a web developer, committed, responsible and professional. With the ability to learn quickly, adapt to changes, good communication and friendly to work in a team! I will be happy to talk with you!</p>
+            <h1 className="header__title">Hola, soy Sergio</h1>            
+            <p className="header__paragraph">Soy un desarrollador web, comprometido, responsable y profesional. Con capacidad de aprender rápidamente, adaptarse a los cambios, buena comunicación y amigable para trabajar en equipo! ¡Estaré feliz de hablar contigo!</p>
             <ul className="box_icons">
             <li className='header__ul__li'>
               <img className='header__img__icon' src="/icon-html.png" alt="Logo"/>
