@@ -1,0 +1,117 @@
+.nav__div {
+    width: 100%;
+    /* height: 15vh; */
+    height: 80px;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    padding: 13px 11px;
+    color: var(--color-principal);
+    top: 0;
+    z-index: 100000;
+    background-color: var(--color-dark-blue);
+
+}
+
+.nav__subtitle {
+    width: 90px;
+    letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+    padding: 11px 8px;
+    font-weight: bold;
+    font-size: 0.9rem;
+
+}
+
+.nav__logo {
+    height: 70px;
+    transition: transform 0.5s;
+}
+
+.nav__letter {
+    font-size: 2.5rem;
+    font-family: 'Kaushan Script', cursive;
+    margin-right: 1.5vw;
+    display: none;
+}
+
+.icon-menu {
+    cursor: pointer;
+}
+
+.nav__ul {
+    width: 70px;
+    z-index: 11000;
+    position: fixed;
+    right: 0;
+    display: flex;
+    top: 80px;
+    height: 82vh;
+    /* height: 550px; */
+    gap: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--color-white);
+    transition: 1s;
+
+
+}
+
+.nav__ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    transform: rotate(90deg);    
+    text-align: center;
+}
+
+.nav__ul__a {
+    transition: 0.8s;
+    color: var(--color-white);
+}
+
+.nav__ul__a:hover {
+    transition: 0.8;
+    font-size: 1.2rem;
+}
+
+.form__disable {
+    transition: 0;
+    transform: scale(0);
+}
+
+@media (min-width: 900px) {
+    .nav__letter {
+        display: block;
+    }
+    .icon-menu {
+        display: none;
+    }
+    .form__disable {
+        transition: 1s;
+        transform: scale(1);
+    }
+}
+
+@media (max-height:550px) {
+    .nav__ul {
+        width: 50%;
+        font-size: 12px;
+        z-index: 100000;
+        position: fixed;
+        right: 70px;
+        display: flex;
+        top: 0;
+        height: 80px;
+        gap: 4rem;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .nav__ul li {
+        height: 70px;
+        transform: rotate(0);
+    }
+}

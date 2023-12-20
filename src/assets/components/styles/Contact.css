@@ -1,0 +1,37 @@
+.form__Delgado {
+    position: relative;
+    height: 100%;
+}
+
+.form-container {
+    width: 130px;
+    height: 100px;
+    position: absolute;
+    color: black;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%);
+    background: rgba(255, 255, 255, 0.922);
+    border-radius: 10px;
+    z-index: 2;
+}
+.form__disablee{
+    display: none;
+}
+
+
+.contact__btn {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 7px;
+    top: 7px;
+
+}
+
+.contact__h3 {
+    top: 40%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
