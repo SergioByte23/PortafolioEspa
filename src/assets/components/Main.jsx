@@ -39,12 +39,12 @@ const Main = () => {
                                 <img className="main__section__img" src="/weatherapp.png" alt="g" />
                             </a>
                         </div>
-                        <div className="main__section__div">
+                        {/* <div className="main__section__div">
                             <h3 className='section__subtitle'>Ecomerce</h3>
                             <a className="section__a" href="https://ecomerce-nu.vercel.app/" target="_blank">
                                 <img className="main__section__img" src="/ecomer.png" alt="h" />
                             </a>
-                        </div>
+                        </div> */}
                         <div className="main__section__div">
                             <h3 className='section__subtitle'>Fortune</h3>
                             <a className="section__a" href="https://trabajo012-react.vercel.app/" target="_blank">
