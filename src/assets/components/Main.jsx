@@ -16,8 +16,7 @@ const Main = () => {
                         <div className="main__section__div">
                             <h3 className='section__subtitle'>Pokedex</h3>
                             <a className="section__a" href="https://trabajo05-react-pq14xzkib-sergio-delgados-projects.vercel.app/#/pokedex" target="_blank">
-                                <img className="main__section__img1" src="/Pokedex2.png" alt="f" />
-                                <img className="main__section__img2" src="/Pokedex2.png" alt="f" />
+                                <img className="main__section__img" src="/Pokedex2.png" alt="f" />
                             
                             </a>
                         </div>

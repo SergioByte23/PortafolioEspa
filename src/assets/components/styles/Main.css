@@ -85,25 +85,14 @@
     width:100%;
     height: 80%;  
 }
-.main__section__img1{
-    width:100%;
-    height: 80%;
-    transition: 3s;  
-}
-.main__section__img1:hover{     
-    display:none ;
-    transition: 4s;
-}
-.main__section__img2{
+
+/* .main__section__img2{
     width:100%;
     height: 80%;  
     display: none; 
     transition: 2s;
-}
-.main__section__img2:hover{     
-    display:block ;
-    transition: 2s;
-} 
+} */
+
 /* .section__a:hover{
     background-image: url(/public/Pokedex.png);
     width:100%;
