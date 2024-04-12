@@ -13,7 +13,7 @@ const Footer = () => {
                         </a>
                     </li>
                     <li className='footer__ul__li'>
-                        <a className="footer__icon" href="https://www.linkedin.com/in/sergio-delgado-maco-397583165/" target="blank">
+                        <a className="footer__icon" href="https://www.linkedin.com/in/sergio-giancarlo-delgado-maco-397583165/" target="blank">
                             <img className='footer__img linkedin' src="/in.png" alt="linkedin" />
                         </a>
                     </li>

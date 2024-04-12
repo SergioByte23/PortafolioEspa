@@ -28,7 +28,7 @@ const Main = () => {
                         </div>
                         <div className="main__section__div">
                             <h3 className='section__subtitle'>Wiki app</h3>
-                            <a className="section__a" href="https://trabajo03-react.vercel.app/" target="_blank">
+                            <a className="section__a" href="https://trabajo-react2-1-rickand-morty.vercel.app/" target="_blank">
                                 <img className="main__section__img" src="/wiki-rickandmorty.png" alt="f" />
                             </a>
                         </div>
