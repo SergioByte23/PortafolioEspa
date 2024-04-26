@@ -33,10 +33,10 @@ const Nav = ({ darkMode, setDarkMode, englishMode, setEnglishMode }) => {
 
         <button className='englishmode__btn' onClick={handleButtonEnglish}>
           <span className={`${englishMode ? 'esp' : 'i__esp'}`}>
-            <img className="img__esp" src="/public/esp.png" alt=""></img>
+            <img className="img__esp" src="/esp.png" alt=""></img>
           </span>
           <span className={`${englishMode ? 'i__eng' : 'eng'}`}>
-            <img className="img__eng" src="/public/eng.png" alt=""></img>
+            <img className="img__eng" src="/eng.png" alt=""></img>
           </span>
         </button>
 
