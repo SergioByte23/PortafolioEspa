@@ -1,10 +1,16 @@
 .footer {
+    
     position: fixed;
     z-index: 12000;    
     right:3vw ;
     bottom: 0;
+    
+    
 }
 
+.footer__div__white{
+background-color: white;
+}
 /* .footer-text {
     padding: 1rem;
     display: none;
@@ -58,17 +64,44 @@
 }
 
 /* ****** */
-.footer__box{
-    position: relative;
-}
+
 .footer-text{
     position: fixed;
-    margin-left: 15px;
-    margin-bottom: 17px;
+    margin-left: 18px;
+    margin-bottom: 10px;
     bottom: 0;
     left: 0;
     z-index: 10000000;
+    cursor: pointer;
+    font-size: 17px;
+    color: aliceblue;
+    transition: 0.8s;
+    
+}
+.footer-text:hover{
+    transition: 0.8s;
+    scale: 1.1;   
+    
+}
+.footer_white{
+    color: black;
 }
 .ff-family-sen{
     margin-left: 15px;
+}
+.footer-text-CV{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.bx-cloud-download{
+    animation: download 1s infinite alternate;
+}
+@keyframes download {
+    from{        
+        opacity: 1;
+    }
+    to{        
+        opacity: 0.2;
+    }
 }

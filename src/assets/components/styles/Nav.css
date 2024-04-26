@@ -9,8 +9,14 @@
     color: var(--color-principal);
     top: 0;
     z-index: 100000;
-    background-color: var(--color-dark-blue);
+    /* background-color: var(--color-dark-blue); */
+    background-color:rgba(0, 0, 0, 0.399);
+    
 
+}
+.nav__div__Dark{
+    /* background-color: var(--color-sun); */
+    background-color: rgba(255, 255, 255, 0.319);
 }
 
 .nav__subtitle {
@@ -27,6 +33,91 @@
     height: 70px;
     transition: transform 0.5s;
 }
+
+
+
+
+.darkmode__btn{
+    position: absolute;
+    top: 30px;
+    left: 120px;
+    cursor: pointer;
+    z-index: 40;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    
+}
+
+.moon,
+.sun{
+    display: none;
+}
+
+.i__moon,
+.i__sun{
+    display: block;
+}
+
+.i__moon{
+    
+    color: var(--color-dark-blue);
+    text-shadow: 0 0 8px rgb(240, 228, 142);
+}
+.i__sun{
+    color: var(--color-white);
+    text-shadow: 0 0 5px rgb(64, 64, 64);
+}
+
+
+
+.englishmode__btn{
+    width: 50px;
+    position: absolute;
+    top: 30px;
+    left: 155px;
+    cursor: pointer;
+    z-index: 40;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+.img__esp{
+    width: 30px;
+}
+.img__eng{
+width: 30px;
+}
+
+
+.esp,
+.eng{
+    display: none;
+}
+
+.i__esp,
+.i__eng{
+    display: block;
+    width: 50px;
+}
+
+.i__esp{
+    
+    color: var(--color-dark-blue);
+    text-shadow: 0 0 8px rgb(240, 228, 142);
+}
+.i__eng{
+    color: var(--color-white);
+    text-shadow: 0 0 5px rgb(64, 64, 64);
+}
+
+
+
+
+
+
+
 
 .nav__letter {
     font-size: 2.5rem;
@@ -51,11 +142,14 @@
     gap: 6rem;
     flex-direction: column;
     justify-content: center;
-    color: var(--color-white);
-    transition: 1s;
+    color: var(--color-white);   
+    background-color: transparent; 
+    /* transition: 1s; mirarr aquiiii */
 
 
 }
+
+
 
 .nav__ul li {
     display: flex;
@@ -72,14 +166,40 @@
 }
 
 .nav__ul__a:hover {
-    transition: 0.8;
+    transition: 0.8s;
     font-size: 1.2rem;
 }
+
+.sub_nav__eng,
+.sub_nav__esp{
+    display: none;
+}
+.nav__eng,
+.nav__esp{
+    display: flex;
+    top: 80px;
+    height: 82vh;    
+    gap: 6rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
 
 .form__disable {
     transition: 0;
     transform: scale(0);
 }
+
+/* .letters__Dark{
+    color: red !important;
+} */
 
 @media (min-width: 900px) {
     .nav__letter {
@@ -107,6 +227,7 @@
         gap: 4rem;
         flex-direction: row;
         align-items: center;
+        
 
     }
 
@@ -114,4 +235,7 @@
         height: 70px;
         transform: rotate(0);
     }
+}
+.letters__Dark{
+    color: var(--color-dark-blue)
 }

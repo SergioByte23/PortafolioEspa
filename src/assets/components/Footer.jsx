@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles/Footer.css'
 
-const Footer = () => {
+const Footer = ({ darkMode, setDarkMode,englishMode }) => {
     return (
         <>
         
@@ -23,13 +23,23 @@ const Footer = () => {
                         </a>
                     </li>
                 </ul>
+
+                
             </div>
-            <div className='footer__box'>
-            <div className="footer-text">
+            
+            <a className={`footer-text ${darkMode ? 'footer_white' : ''} ${englishMode ? 'subtitle__eng' : 'sub__eng'}`} href="/SergioDelgadoMaco_Cv.pdf" download >
+                <h3 className="ff-family-poppins-semi-b">Diseñador Web</h3>
+                <p className="ff-family-sen"><span className="full ff-family-poppins-semi-b">FULL</span> Stack</p>
+                <h2 className='ff-family-poppins-semi-b footer-text-CV ' >CV <span><i className='bx bx-cloud-download' ></i></span></h2>
+                
+            </a>
+            <a className={`footer-text ${darkMode ? 'footer_white' : ''} ${englishMode ? 'sub__esp' : 'subtitle__esp'}`} href="/SergioDelgadoMaco_Cv.pdf" download >
                 <h3 className="ff-family-poppins-semi-b">Web Designer</h3>
                 <p className="ff-family-sen"><span className="full ff-family-poppins-semi-b">FULL</span> Stack</p>
-            </div>
-            </div>
+                <h2 className='ff-family-poppins-semi-b footer-text-CV ' >CV <span><i className='bx bx-cloud-download' ></i></span></h2>
+                
+            </a>
+            
         </>
     )
 }
